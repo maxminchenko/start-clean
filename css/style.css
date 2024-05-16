@@ -1,0 +1,282 @@
+.row {
+  display: flex; /* Enable flexbox */
+  align-items: center; /* Align content vertically */
+}
+.hero-section {
+  padding: 100px 0;
+}
+.hero-section .hero-text {
+  max-width: 500px;
+}
+.hero-section img {
+  max-width: 100%;
+  border-radius: 0 50px 50px 0;
+}
+.nav-link,
+.btn-signup {
+  color: #a87e6f;
+  font-weight: 600;
+}
+.btn-contact {
+  background-color: #5fa67c;
+  color: white;
+}
+.services-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.services-section h2 {
+  font-size: 1.2rem;
+  color: #696969;
+  margin-bottom: 10px;
+}
+
+.services-section h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 40px;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.service-card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+}
+
+.service-card.active {
+  background: #c49b77;
+  color: #fff;
+}
+
+.service-card .service-icon img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.service-card h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 0.9rem;
+  color: #696969;
+}
+
+.service-navigation {
+  margin-top: 20px;
+}
+
+.service-navigation button {
+  background: #2b7a78;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.service-navigation button:hover {
+  background: #17252a;
+}
+.section-interioris {
+  text-align: center;
+}
+.btn.btn-primary {
+  background-color: #3e8e41;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn.btn-primary:hover {
+  background-color: #2b7a78;
+}
+
+.text-gray-500.mt-3 {
+  font-size: 14px;
+  color: #888888;
+}
+.number-block {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.number {
+  font-size: 64px;
+  font-weight: bold;
+  color: #af894c;
+}
+
+.text {
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.btn.btn-primary {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn.btn-primary:hover {
+  background-color: #3e8e41;
+}
+.blog-posts {
+  padding: 60px 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.blog-post-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.blog-post {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.blog-post img {
+  max-width: 100%;
+  border-radius: 10px 0 0 10px;
+  margin-bottom: 20px;
+}
+
+.blog-post h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.blog-post p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #3e8e41;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  background-color: #2b7a78;
+}
+.blog-posts {
+  padding: 60px 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.blog-post-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.blog-post {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.blog-post img {
+  max-width: 100%;
+  border-radius: 10px 0 0 10px;
+  margin-bottom: 20px;
+}
+
+.blog-post h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.blog-post p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #3e8e41;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  background-color: #2b7a78;
+}
+
+.subscribe-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.subscribe-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
